@@ -43,3 +43,21 @@ python3 experiments/toy_attention_experiment.py
 
 ### Multi-head attention (toy)
 ![Multi-head heads](figures/multihead_attention_heads.png)
+
+
+---
+---
+
+## Positional Encoding as Inductive Bias (toy study)
+
+Ноутбук: `notebooks/positional_encoding_and_inductive_bias.ipynb`
+
+Идея: показать, почему self-attention без позиции “не знает геометрию”, и как absolute PE / relative bias вводят зависимость от расстояния `|i-j|` (физическая интуиция: “взаимодействие зависит от дистанции”).
+
+<p align="center">
+  <img src="figures/attention_comparison.png" width="900">
+</p>
+
+<p align="center">
+  <img src="figures/attention_vs_distance.png" width="650">
+</p>
