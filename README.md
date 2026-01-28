@@ -46,7 +46,6 @@ python3 experiments/toy_attention_experiment.py
 
 
 ---
----
 
 ## Positional Encoding as Inductive Bias (toy study)
 
@@ -61,3 +60,6 @@ python3 experiments/toy_attention_experiment.py
 <p align="center">
   <img src="figures/attention_vs_distance.png" width="650">
 </p>
+
+
+Заметка (paper note): `papers/positional_encoding_bias.md`
