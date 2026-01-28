@@ -8,12 +8,16 @@
 - `papers/icml_transformer_attention.md`  
   Краткий разбор self-attention и scaled dot-product attention
   (по мотивам Transformer-архитектур, ICML / NeurIPS).
+- `papers/icml_llm_scaling_laws.md`  
+  Краткий обзор scaling laws для больших языковых моделей (ICML).
 
 ## 🧪 Experiments
 
 - `experiments/toy_attention_experiment.py`  
   Минимальная реализация self-attention (NumPy) и визуализация
   attention-матрицы.
+- `experiments/softmax_temperature_experiment.py`  
+  Визуализация влияния температуры на softmax-распределение.
 
 Пример результата:
 
