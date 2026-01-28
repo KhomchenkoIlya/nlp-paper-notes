@@ -1,16 +1,30 @@
-# NLP / LLM Paper Notes and Toy Experiments
+# NLP Paper Notes & Toy Experiments
 
-This repository contains short notes and small toy experiments inspired by modern NLP and LLM research papers.
+Небольшой исследовательский репозиторий с конспектами статей по NLP / LLM
+и воспроизведением ключевых идей в виде простых экспериментов.
 
-Goal:
-- understand Transformer architectures and attention mechanisms
-- reproduce core ideas in simplified experimental setups
-- visualize basic properties of self-attention
+## 📄 Papers
 
-## Structure
-- `papers/` — paper reading notes
-- `experiments/` — toy experiments in PyTorch
-- `figures/` — plots and visualizations
+- `papers/icml_transformer_attention.md`  
+  Краткий разбор self-attention и scaled dot-product attention
+  (по мотивам Transformer-архитектур, ICML / NeurIPS).
 
-## Disclaimer
-All experiments are intentionally simplified and are meant for educational and research practice purposes.
+## 🧪 Experiments
+
+- `experiments/toy_attention_experiment.py`  
+  Минимальная реализация self-attention (NumPy) и визуализация
+  attention-матрицы.
+
+Пример результата:
+
+<p align="center">
+  <img src="figures/attention_heatmap.png" width="420">
+</p>
+
+## 🛠 How to run
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 experiments/toy_attention_experiment.py
