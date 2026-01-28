@@ -36,3 +36,10 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python3 experiments/toy_attention_experiment.py
+## Attention
+
+### Attention mechanisms comparison
+![Attention mechanisms](figures/attention_mechanisms_comparison.png)
+
+### Multi-head attention (toy)
+![Multi-head heads](figures/multihead_attention_heads.png)
