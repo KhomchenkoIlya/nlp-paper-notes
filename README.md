@@ -10,6 +10,8 @@
   (по мотивам Transformer-архитектур, ICML / NeurIPS).
 - `papers/icml_llm_scaling_laws.md`  
   Краткий обзор scaling laws для больших языковых моделей (ICML).
+- `papers/attention_mechanisms_comparison.md`  
+  Обзор и сравнение различных механизмов внимания.
 
 ## 🧪 Experiments
 
@@ -18,6 +20,8 @@
   attention-матрицы.
 - `experiments/softmax_temperature_experiment.py`  
   Визуализация влияния температуры на softmax-распределение.
+- `experiments/compare_attention_mechanisms.py`  
+  Сравнение dot-product, scaled и additive attention с визуализацией.
 
 Пример результата:
 
