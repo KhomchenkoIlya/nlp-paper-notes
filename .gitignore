@@ -1,5 +1,15 @@
-
-# Python venv
+# venv
 .venv/
+
+# python
 __pycache__/
 *.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# vscode
+.vscode/
+
+# os
+.DS_Store
