@@ -43,6 +43,22 @@ python3 experiments/toy_attention_experiment.py
 
 ### Multi-head attention (toy)
 ![Multi-head heads](figures/multihead_attention_heads.png)
+---
+
+## Gated Attention (toy study)
+
+Ноутбук: `notebooks/gated_attention_toy.ipynb`
+
+Идея: attention отвечает за *куда смотреть*, а **gate** — за *сколько информации пропускать*.  
+Это добавляет управляемость и селективность, что используется в современных архитектурах (gated blocks, mixture-of-experts и др.).
+
+<p align="center">
+  <img src="figures/gated_attention_gate_values.png" width="420">
+</p>
+
+<p align="center">
+  <img src="figures/gated_attention_output_magnitude.png" width="420">
+</p>
 
 
 ---
